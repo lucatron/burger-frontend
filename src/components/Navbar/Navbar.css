@@ -1,0 +1,35 @@
+.navbar {
+  background: #0f0f10;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar_inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_brand {
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar_nav {
+  display: flex;
+  gap: 12px;
+}
+
+.navbar_link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.navbar_link.active {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+}

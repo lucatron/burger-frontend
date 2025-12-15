@@ -1,0 +1,50 @@
+.discover {
+  min-height: 100vh;
+  background: #0b0b0c;
+}
+
+.discover_inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.discover_title {
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.discover_subtitle {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 16px;
+}
+
+.discover_search {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.discover_grid {
+  display: grid;
+  gap: 12px;
+}
+
+@media (min-width: 900px) {
+  .discover_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.muted {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.error {
+  color: #ff6b6b;
+}

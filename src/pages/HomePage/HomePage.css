@@ -1,0 +1,39 @@
+.home {
+  min-height: 100vh;
+  background: #0b0b0c;
+}
+
+.grid {
+  display: grid;
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.grid_cards {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 900px) {
+  .grid_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.muted {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.error {
+  color: #ff6b6b;
+}
